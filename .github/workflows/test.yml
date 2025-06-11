@@ -20,6 +20,9 @@ jobs:
       with:
         go-version: '1.24'
 
+    - name: Install gocritic
+      run: go install github.com/go-critic/go-critic/cmd/gocritic@latest
+
     - name: Critic
       run: make critic
 
