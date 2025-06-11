@@ -80,7 +80,3 @@ Allocate your monthly budget:
 ```bash
 finz budget --income 3000 --housing 30 --food 15 --transport 10 --utilities 5 --healthcare 5 --debt 10 --savings 15 --discretionary 10
 ```
-
-## License
-
-MIT
