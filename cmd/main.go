@@ -12,7 +12,7 @@ func handleInvest(args []string) {
 	investCmd := flag.NewFlagSet("invest", flag.ExitOnError)
 
 	var (
-		principal   float64
+		principal   float6
 		annualYield float64
 		taxRate     float64
 		inflation   float64
